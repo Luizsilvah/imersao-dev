@@ -4,7 +4,7 @@
         "imagem": "https://bringatrailer.com/wp-content/uploads/2024/07/1967_ford_mustang-gt_img_5893-62427.jpeg?fit=940%2C627",
         "historia": "O Ford Mustang 1967 representa o auge da era dos muscle cars americanos. Com seu design agressivo e motor V8 potente, este ícone definiu uma geração. A versão Fastback tornou-se imortalizada no filme 'Bullitt' com Steve McQueen. Produzido em Dearborn, Michigan, o Mustang '67 oferecia motores de até 390 cavalos de potência.",
         "especificacoes": "Motor V8 4.7L - 289 cv | Ano: 1967 | Origem: EUA",
-        "link": "https://pt.wikipedia.org/wiki/Ford_Mustang"
+        "link": "https://thegarage.com.br/carro/1967-mustang-fastback/"
     },
     {
         "nome": "Volkswagen Fusca 1963",
@@ -18,7 +18,7 @@
         "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLpUa7ZVAwPknuoDW3ajPtRbiu0QEnHX64TQ&s",
         "historia": "O Corvette C2 Stingray de 1963 é considerado um dos mais belos carros esportivos já criados. Com sua janela traseira dividida icônica (apenas no modelo 1963) e design futurista inspirado em aviões, revolucionou o conceito de carro esportivo americano. Seu motor V8 entregava performance de supercar.",
         "especificacoes": "Motor V8 5.4L - 360 cv | Ano: 1963 | Origem: EUA",
-        "link": "https://pt.wikipedia.org/wiki/Chevrolet_Corvette"
+        "link": "https://en.wikipedia.org/wiki/Chevrolet_Corvette_(C2)"
     },
     {
         "nome": "Jaguar E-Type 1961",
@@ -32,7 +32,7 @@
         "imagem": "https://www.automaistv.com.br/wp-content/uploads/2017/12/Porsche-911-1964-901-6.jpg",
         "historia": "O Porsche 911 original de 1964 estabeleceu um legado que continua até hoje. Com motor boxer de seis cilindros na traseira e design atemporal de Ferdinand 'Butzi' Porsche, criou uma fórmula vencedora. Sua silhueta distintiva praticamente não mudou em 60 anos de produção, provando a genialidade do design original.",
         "especificacoes": "Motor Boxer 6 cilindros 2.0L - 130 cv | Ano: 1964 | Origem: Alemanha",
-        "link": "https://pt.wikipedia.org/wiki/Porsche_911"
+        "link": "https://motor1.uol.com.br/features/698954/historia-porsche-911-60-anos/"
     },
     {
         "nome": "Mercedes-Benz 300SL 1954",
@@ -43,10 +43,10 @@
     },
     {
         "nome": "Dodge Charger 1969",
-        "imagem": "https://cdn.dealeraccelerate.com/rkm/1/7649/513098/1920x1440/1969-dodge-charger-r-t",
+        "imagem": "https://lartbr.com.br/wp-content/webp-express/webp-images/uploads/2022/08/IMG_3101.jpg.webp",
         "historia": "O Dodge Charger 1969 é a essência do muscle car americano. Imortalizado em filmes e séries como 'Dukes of Hazzard' e 'Velozes e Furiosos', seu design agressivo com grade oculta e lanternas traseiras circulares é inconfundível. A versão Charger R/T com motor HEMI de 426 polegadas cúbicas era uma fera nas ruas e pistas.",
         "especificacoes": "Motor V8 7.0L HEMI - 425 cv | Ano: 1969 | Origem: EUA",
-        "link": "https://pt.wikipedia.org/wiki/Dodge_Charger"
+        "link": "https://lartbr.com.br/carros-antigos/dodge-charger-1969/"
     },
     {
         "nome": "Ferrari 250 GTO 1962",
@@ -57,7 +57,7 @@
     },
     {
         "nome": "Lamborghini Miura P400 1966",
-        "imagem": "https://media.autoexpress.co.uk/image/private/s--X-WVjvBW--/f_auto,t_content-image-full-desktop@1/v1679569793/autoexpress/2023/03/Lamborghini%20Miura%20icon-4.jpg",
+        "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Lamborghini_miura_coup%C3%A9_1967_-aa.jpg/500px-Lamborghini_miura_coup%C3%A9_1967_-aa.jpg",
         "historia": "O Lamborghini Miura é frequentemente creditado como o primeiro supercarro do mundo, com seu motor V12 central-traseiro. Seu design revolucionário, obra de Marcello Gandini no estúdio Bertone, chocou o mundo automotivo em 1966 e estabeleceu um novo padrão para carros de alta performance.",
         "especificacoes": "Motor V12 3.9L - 350 cv | Ano: 1966 | Origem: Itália",
         "link": "https://pt.wikipedia.org/wiki/Lamborghini_Miura"
@@ -71,7 +71,7 @@
     },
     {
         "nome": "Shelby Cobra 427 1965",
-        "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEgrcILYetaYJVoNNf3x1cp5oH7OqpQbBZvQ&s",
+        "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/AC_Cobra_%2812372117324%29.jpg/500px-AC_Cobra_%2812372117324%29.jpg",
         "historia": "O Shelby Cobra é a definição de força bruta. Carroll Shelby teve a ideia genial de colocar um motor V8 gigante da Ford em um chassi leve britânico da AC Cars. O resultado foi um carro de corrida legalizado para as ruas, com aceleração avassaladora e um visual intimidador que se tornou um ícone americano.",
         "especificacoes": "Motor V8 7.0L - 425 cv | Ano: 1965 | Origem: EUA/Inglaterra",
         "link": "https://pt.wikipedia.org/wiki/AC_Cobra"
@@ -88,7 +88,7 @@
         "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRj-gKK72XnnHxEnt6rHqvYjkejbb0PhJjqCA&s",
         "historia": "O BMW M1 foi o primeiro e único supercarro de motor central da BMW. Com design de Giorgetto Giugiaro, foi originalmente concebido para competições. Atrasos na produção levaram à criação do campeonato Procar, onde pilotos de F1 competiam com M1s. É o carro que deu origem à lendária divisão 'M' da BMW.",
         "especificacoes": "Motor 6 cilindros 3.5L - 277 cv | Ano: 1978 | Origem: Alemanha",
-        "link": "https://pt.wikipedia.org/wiki/BMW_M1"
+        "link": "https://retroauto.com.br/bmw-m1-um-esportivo-da-baviera-para-as-competicoes/"
     },
     {
         "nome": "Lancia Stratos HF 1973",
@@ -109,15 +109,16 @@
         "imagem": "https://cdn.dealeraccelerate.com/sunnyside/1/24/2069/1920x1440/1969-chevrolet-camaro-z28",
         "historia": "O Camaro Z/28 de 1969 é um dos pony cars mais icônicos. Projetado para competir na série Trans-Am, vinha com um motor V8 de 302 polegadas cúbicas de alta rotação, suspensão aprimorada e um visual agressivo. É considerado por muitos o ápice do design da primeira geração do Camaro.",
         "especificacoes": "Motor V8 4.9L - 290 cv | Ano: 1969 | Origem: EUA",
-        "link": "https://en.wikipedia.org/wiki/Chevrolet_Camaro_(first_generation)"
+        "link": "https://www.caranddriver.com/features/g15382545/chevrolet-camaro-generations-body-styles/"
     },
     {
         "nome": "Pontiac GTO 1964",
-        "imagem": "https://cdn.hswstatic.com/gif/1964-pontiac-gto-1.jpg",
+        "imagem": "https://assets.dyler.com/uploads/posts/511/images/10307/1965-pontiac-gto.jpg",
         "historia": "O Pontiac GTO de 1964 é amplamente considerado o carro que deu início à era dos muscle cars. A Pontiac quebrou as regras da GM ao colocar um grande motor V8 de 389 polegadas cúbicas em um chassi intermediário (Tempest), criando um carro acessível com performance de carro grande. O GTO definiu a fórmula para uma década de carros de alta potência.",
         "especificacoes": "Motor V8 6.4L - 325 cv | Ano: 1964 | Origem: EUA",
-        "link": "https://pt.wikipedia.org/wiki/Pontiac_GTO"
+        "link": "https://pt.dyler.com/blog/1605/pontiac-gto"
     }
 
 ]
+
 
