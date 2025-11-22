@@ -8,7 +8,7 @@
     },
     {
         "nome": "Volkswagen Fusca 1963",
-        "imagem": "https://images.unsplash.com/photo-1617814076367-b759c7d7e738?w=800&q=80",
+        "imagem": "https://www.picellileiloes.com.br/arquivos/leiloes/lotes/imagens/60eef27ddc4c0.peg",
         "historia": "O Volkswagen Fusca de 1963 representa a simplicidade e confiabilidade alemã. Projetado na década de 1930, tornou-se o carro mais produzido no século XX. Com seu motor refrigerado a ar na traseira e design inconfundível, conquistou o mundo. No Brasil, foi produzido até 1996, tornando-se parte da cultura nacional.",
         "especificacoes": "Motor 4 cilindros 1.2L - 40 cv | Ano: 1963 | Origem: Alemanha",
         "link": "https://pt.wikipedia.org/wiki/Volkswagen_Fusca"
@@ -118,4 +118,5 @@
         "especificacoes": "Motor V8 6.4L - 325 cv | Ano: 1964 | Origem: EUA",
         "link": "https://pt.wikipedia.org/wiki/Pontiac_GTO"
     }
+
 ]
