@@ -1,0 +1,303 @@
+/* Reset e estilos gerais */
+/* O seletor universal (*) remove todas as margens e preenchimentos padrão dos navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos aplicados a todo o corpo (body) da página */
+body {
+    font-family: 'Raleway', sans-serif; /* Define a fonte principal para o texto */
+    line-height: 1.6; /* Define a altura da linha para melhor legibilidade */
+    background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%); /* Fundo escuro com gradiente */
+    color: #e0e0e0; /* Cor do texto principal (cinza claro) */
+    min-height: 100vh; /* Garante que o corpo ocupe pelo menos 100% da altura da tela */
+}
+
+/* Cabeçalho */
+/* Estilização do cabeçalho principal da página */
+header {
+    background: linear-gradient(135deg, #8B4513 0%, #D2691E 100%); /* Fundo com gradiente em tons de marrom/laranja */
+    color: #fff; /* Cor do texto do cabeçalho (branco) */
+    padding: 3rem 1rem; /* Preenchimento interno (espaçamento) */
+    text-align: center; /* Centraliza todo o conteúdo */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Sombra para dar profundidade */
+    position: relative; /* Necessário para posicionar o pseudo-elemento ::before */
+    overflow: hidden; /* Esconde qualquer conteúdo que transborde */
+}
+
+/* Pseudo-elemento usado para criar um padrão de fundo decorativo no cabeçalho */
+header::before {
+    content: '';
+    position: absolute; /* Posiciona sobre o cabeçalho */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path d="M0,50 Q25,40 50,50 T100,50" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="0.5"/></svg>'); /* Imagem de fundo SVG */
+    opacity: 0.3; /* Deixa o padrão de fundo sutil */
+}
+
+/* Estilização do título principal (H1) */
+header h1 {
+    font-family: 'Playfair Display', serif; /* Fonte elegante para o título */
+    font-size: 3rem; /* Tamanho da fonte */
+    font-weight: 900; /* Peso da fonte (bem grossa) */
+    letter-spacing: 3px; /* Espaçamento entre as letras */
+    text-transform: uppercase; /* Transforma o texto em maiúsculas */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra no texto para destaque */
+    margin-bottom: 0.5rem; /* Margem inferior */
+    position: relative; /* Garante que o título fique acima do padrão de fundo */
+    z-index: 1;
+}
+
+/* Estilização do parágrafo (subtítulo) no cabeçalho */
+header p {
+    font-size: 1.1rem; /* Tamanho da fonte */
+    opacity: 0.9; /* Leve transparência */
+    letter-spacing: 1px; /* Espaçamento entre letras */
+    position: relative; /* Garante que fique acima do padrão de fundo */
+    z-index: 1; /* Garante que fique acima do padrão de fundo */
+    margin-bottom: 2rem; /* Margem inferior para separar da busca */
+}
+
+/* Container de busca */
+/* Estilização da área que contém o campo de busca e o botão */
+.search-container {
+    text-align: center; /* Centraliza o conteúdo */
+    max-width: 600px; /* Largura máxima */
+    margin: 0 auto; /* Centraliza o container na página */
+    position: relative; /* Garante que fique acima do padrão de fundo do header */
+    z-index: 1; /* Garante que fique acima do padrão de fundo do header */
+}
+
+/* Estilização do campo de input da busca */
+.search-container input[type="search"] {
+    padding: 1rem 1.5rem; /* Preenchimento interno */
+    width: 70%; /* Largura relativa ao container */
+    max-width: 400px; /* Largura máxima */
+    border: 2px solid #8B4513; /* Borda na cor do tema */
+    border-radius: 50px 0 0 50px; /* Cantos arredondados apenas na esquerda */
+    background: rgba(255, 255, 255, 0.95); /* Fundo branco semi-transparente */
+    color: #333; /* Cor do texto digitado */
+    font-size: 1rem; /* Tamanho da fonte */
+    font-family: 'Raleway', sans-serif; /* Mesma fonte do corpo */
+    outline: none; /* Remove a borda de foco padrão */
+    transition: all 0.3s ease; /* Transição suave para efeitos */
+}
+
+/* Efeito quando o campo de busca está em foco (selecionado) */
+.search-container input[type="search"]:focus {
+    background: white; /* Fundo fica totalmente branco */
+    box-shadow: 0 0 20px rgba(139, 69, 19, 0.3); /* Adiciona uma sombra de brilho */
+}
+
+/* Estilização do botão de busca */
+#botao-busca {
+    padding: 1rem 2rem; /* Preenchimento interno */
+    background: linear-gradient(135deg, #8B4513 0%, #D2691E 100%); /* Gradiente igual ao cabeçalho */
+    color: white; /* Cor do texto */
+    border: none; /* Remove a borda padrão */
+    border-radius: 0 50px 50px 0; /* Cantos arredondados apenas na direita */
+    cursor: pointer; /* Muda o cursor para uma "mãozinha" */
+    font-size: 1rem; /* Tamanho da fonte */
+    font-weight: 600; /* Peso da fonte */
+    letter-spacing: 1px; /* Espaçamento entre letras */
+    transition: all 0.3s ease; /* Transição suave para efeitos */
+    margin-left: -5px; /* Leve deslocamento para a esquerda para "colar" no input */
+}
+
+/* Efeito quando o mouse passa por cima do botão de busca */
+#botao-busca:hover {
+    background: linear-gradient(135deg, #A0522D 0%, #CD853F 100%); /* Gradiente mais claro */
+    transform: translateY(-2px); /* Move o botão levemente para cima */
+    box-shadow: 0 4px 15px rgba(139, 69, 19, 0.4); /* Sombra mais forte para dar destaque */
+}
+
+/* Container principal */
+/* Estilização da área principal que contém os cards */
+main {
+    padding: 2rem 1rem;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+/* Estilização do contêiner que organiza os cards */
+.card-container {
+    display: grid; /* Usa o layout de grade (Grid) para alinhar os cards */
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); /* Cria colunas responsivas */
+    gap: 2rem; /* Espaçamento entre os cards */
+    padding: 1rem; /* Preenchimento interno */
+}
+
+/* Cards */
+/* Estilização base para cada card de carro */
+.card {
+    background: linear-gradient(135deg, #2a2a2a 0%, #1f1f1f 100%); /* Fundo escuro com gradiente */
+    border-radius: 15px; /* Cantos arredondados */
+    overflow: hidden; /* Garante que a imagem não "vaze" dos cantos arredondados */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5); /* Sombra para profundidade */
+    transition: all 0.4s ease; /* Transição suave para todos os efeitos */
+    border: 2px solid rgba(139, 69, 19, 0.3); /* Borda sutil na cor do tema */
+    position: relative; /* Necessário para o pseudo-elemento ::before */
+}
+
+/* Pseudo-elemento que cria a linha colorida no topo do card */
+.card::before {
+    content: '';
+    position: absolute; /* Posiciona em relação ao card */
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 5px; /* Altura da linha */
+    background: linear-gradient(90deg, #8B4513, #D2691E, #8B4513); /* Gradiente de cor */
+}
+
+/* Efeito quando o mouse passa por cima do card */
+.card:hover {
+    transform: translateY(-10px) scale(1.02); /* Move o card para cima e aumenta um pouco o tamanho */
+    box-shadow: 0 20px 40px rgba(139, 69, 19, 0.4); /* Sombra mais forte para destacar */
+    border-color: #D2691E; /* Deixa a borda mais visível */
+}
+
+/* Estilização da imagem dentro do card */
+.card img {
+    width: 100%; /* Imagem ocupa toda a largura do card */
+    height: 250px; /* Altura fixa para a imagem */
+    object-fit: cover; /* Garante que a imagem cubra a área sem distorcer */
+    transition: transform 0.4s ease; /* Transição suave para o efeito de zoom */
+}
+
+/* Efeito de zoom na imagem quando o mouse passa por cima do card */
+.card:hover img {
+    transform: scale(1.1); /* Aumenta o tamanho da imagem em 10% */
+}
+
+/* Estilização da área de conteúdo (texto) do card */
+.card-content {
+    padding: 1.5rem; /* Preenchimento interno */
+}
+
+/* Estilização do título (H2) do card */
+.card h2 {
+    font-family: 'Playfair Display', serif; /* Mesma fonte elegante do título principal */
+    color: #D2691E; /* Cor do tema */
+    font-size: 1.8rem; /* Tamanho da fonte */
+    margin-bottom: 0.5rem; /* Margem inferior */
+    font-weight: 700; /* Peso da fonte */
+}
+
+/* Estilização da seção de especificações do carro */
+.card .especificacoes {
+    font-size: 0.85rem; /* Tamanho da fonte menor */
+    color: #b8860b; /* Cor dourada escura */
+    margin-bottom: 1rem; /* Margem inferior */
+    padding: 0.5rem; /* Preenchimento interno */
+    background: rgba(139, 69, 19, 0.1); /* Fundo sutil na cor do tema */
+    border-left: 3px solid #D2691E; /* Linha decorativa à esquerda */
+    font-weight: 600; /* Peso da fonte */
+}
+
+/* Estilização do parágrafo de história do carro */
+.card p {
+    color: #cccccc; /* Cor do texto (cinza claro) */
+    margin-bottom: 1.5rem; /* Margem inferior */
+    line-height: 1.8; /* Altura da linha maior para conforto na leitura */
+    text-align: justify; /* Alinhamento justificado do texto */
+}
+
+/* Estilização do link/botão "Saiba Mais" */
+.card a {
+    display: inline-block; /* Permite definir padding e outras propriedades de bloco */
+    padding: 0.8rem 2rem; /* Preenchimento interno */
+    background: linear-gradient(135deg, #8B4513 0%, #D2691E 100%); /* Gradiente na cor do tema */
+    color: white; /* Cor do texto */
+    text-decoration: none; /* Remove o sublinhado padrão do link */
+    border-radius: 50px; /* Deixa o botão com formato de pílula */
+    font-weight: 600; /* Peso da fonte */
+    letter-spacing: 1px; /* Espaçamento entre letras */
+    transition: all 0.3s ease; /* Transição suave para efeitos */
+    text-transform: uppercase; /* Texto em maiúsculas */
+    font-size: 0.85rem; /* Tamanho da fonte */
+}
+
+/* Efeito quando o mouse passa por cima do botão "Saiba Mais" */
+.card a:hover {
+    background: linear-gradient(135deg, #A0522D 0%, #CD853F 100%); /* Gradiente mais claro */
+    transform: translateX(5px); /* Move o botão levemente para a direita */
+    box-shadow: 0 5px 15px rgba(139, 69, 19, 0.3); /* Adiciona uma sombra */
+}
+
+/* Mensagem de nenhum resultado */
+/* Estilização da mensagem que aparece quando a busca não encontra resultados */
+.card-container p {
+    grid-column: 1 / -1; /* Faz a mensagem ocupar todas as colunas da grade */
+    text-align: center; /* Centraliza o texto */
+    font-size: 1.2rem; /* Tamanho da fonte */
+    color: #D2691E; /* Cor do tema */
+    padding: 3rem; /* Espaçamento */
+}
+
+/* Rodapé */
+/* Estilização do rodapé da página */
+.footer {
+    background: linear-gradient(135deg, #1a1a1a 0%, #0d0d0d 100%); /* Fundo bem escuro */
+    color: #e0e0e0; /* Cor do texto */
+    text-align: center; /* Centraliza o conteúdo */
+    padding: 2rem 1rem; /* Preenchimento interno */
+    margin-top: 4rem; /* Margem superior para separar do conteúdo principal */
+    border-top: 3px solid #8B4513; /* Linha decorativa no topo */
+}
+
+/* Estilização da lista de links no rodapé */
+.footer-links {
+    list-style: none; /* Remove os marcadores de lista (bolinhas) */
+    display: flex; /* Usa Flexbox para alinhar os links */
+    justify-content: center; /* Centraliza os links horizontalmente */
+    flex-wrap: wrap; /* Permite que os links quebrem a linha em telas pequenas */
+    gap: 2rem; /* Espaçamento entre os links */
+    padding: 0; /* Remove o preenchimento padrão da lista */
+    margin: 0; /* Remove a margem padrão da lista */
+}
+
+/* Estilização de cada link no rodapé */
+.footer-links a {
+    color: #D2691E; /* Cor do tema */
+    text-decoration: none; /* Remove o sublinhado */
+    font-weight: 600; /* Peso da fonte */
+    transition: all 0.3s ease; /* Transição suave */
+    letter-spacing: 1px; /* Espaçamento entre letras */
+}
+
+/* Efeito quando o mouse passa por cima dos links do rodapé */
+.footer-links a:hover {
+    color: #CD853F; /* Cor mais clara */
+    text-decoration: underline; /* Adiciona sublinhado */
+}
+
+/* Estilização do texto de copyright no rodapé */
+.footer-copyright {
+    margin-top: 1rem; /* Margem superior */
+    opacity: 0.7; /* Leve transparência */
+    font-size: 0.9rem; /* Tamanho da fonte menor */
+}
+
+/* Responsividade */
+/* Media Query: Aplica estes estilos apenas quando a tela tem 768px de largura ou menos */
+@media (max-width: 768px) {
+    /* Diminui o título principal em telas menores */
+    header h1 {
+        font-size: 2rem;
+    }
+
+    /* Faz com que os cards fiquem em uma única coluna */
+    .card-container {
+        grid-template-columns: 1fr;
+    }
+
+    /* Ajusta a largura do campo de busca */
+    .search-container input[type="search"] {
+        width: 60%;
+    }
+}

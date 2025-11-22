@@ -1,0 +1,141 @@
+
+<!-- Define o tipo de documento como HTML5 -->
+<!DOCTYPE html>
+<!-- Define o idioma da página como Português do Brasil -->
+<html lang="pt-br">
+<head>
+    <!-- Define o conjunto de caracteres para UTF-8, que suporta acentos e símbolos -->
+    <meta charset="UTF-8">
+    <!-- Garante que a página seja exibida corretamente em dispositivos móveis (responsividade) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Define o título que aparece na aba do navegador -->
+    <title> Carros Clássicos Lendários </title>
+    
+
+    <!-- Importa as fontes customizadas do Google Fonts para estilizar o texto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@100..900&display=swap" rel="stylesheet">
+
+    <!-- Link para o arquivo de estilos CSS externo -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Cabeçalho da página -->
+    <header>
+        <h1>🏁 Carros Clássicos Lendários</h1>
+        <p>Uma jornada pelas obras-primas da engenharia automotiva</p>
+    </header>
+
+    <!-- Contêiner para a funcionalidade de busca -->
+    <div class="search-container">
+        <!-- Campo de texto para o usuário digitar o termo de busca -->
+        <input type="search" id="campo-busca" placeholder="Busque por marca, modelo ou ano...">
+        <!-- Botão para iniciar a busca -->
+        <button id="botao-busca">Buscar</button>
+    </div>
+
+    <!-- Conteúdo principal da página -->
+    <main>
+        <!-- Seção onde os cards dos carros serão inseridos dinamicamente pelo JavaScript -->
+        <section class="card-container">
+            <!-- Cards serão inseridos aqui pelo JavaScript -->
+        </section>
+    </main>
+
+    <!-- Rodapé da página -->
+    <footer>
+        <!-- Lista de links externos -->
+        <ul class="footer-links">
+            <li><a href="https://github.com/Luizsilvah/" target="_blank" rel="noopener noreferrer">Github</a></li>
+            <li><a href="https://gemini.google.com/" target="_blank" rel="noopener noreferrer"> gemini</a></li>
+            <li><a href="https://cursos.alura.com.br/" target="_blank" rel="noopener noreferrer">alura</a></li>
+    </footer>
+
+    <!-- Início do bloco de código JavaScript -->
+    <script>
+        // Adiciona um "ouvinte" que espera todo o conteúdo HTML da página ser carregado antes de executar o script
+        document.addEventListener('DOMContentLoaded', () => {
+            // Pega as referências dos elementos HTML e guarda em variáveis para uso no script
+            const container = document.querySelector('.card-container');
+            const campoBusca = document.querySelector('#campo-busca');
+            const botaoBusca = document.querySelector('#botao-busca');
+            
+            // Cria um array vazio que irá armazenar todos os dados dos carros vindos do arquivo JSON
+            let todosOsCarros = [];
+
+            // 1. CARREGAMENTO DOS DADOS: Busca o arquivo 'data.json'
+            fetch('data.json')
+                // Quando a resposta chegar, converte os dados para o formato JSON
+                .then(response => response.json())
+                // Depois de converter, executa este bloco de código com os dados prontos
+                .then(data => {
+                    // Armazena os dados dos carros na variável 'todosOsCarros'
+                    todosOsCarros = data;
+                    // Chama a função para exibir todos os carros na tela pela primeira vez
+                    renderizarCards(todosOsCarros);
+                })
+                // Se ocorrer qualquer erro durante o carregamento, exibe uma mensagem no console e na página
+                .catch(error => {
+                    console.error('Erro ao carregar os dados:', error);
+                    container.innerHTML = '<p>Não foi possível carregar os carros clássicos.</p>';
+                });
+
+            // 2. FUNÇÃO DE RENDERIZAÇÃO: Responsável por criar e exibir os cards na tela
+            function renderizarCards(carros) {
+                // Limpa o conteúdo atual do contêiner para não duplicar os cards
+                container.innerHTML = '';
+
+                // Se a lista de carros estiver vazia (ex: busca sem resultados), exibe uma mensagem
+                if (carros.length === 0) {
+                    container.innerHTML = '<p>🔍 Nenhum carro encontrado para o termo pesquisado.</p>';
+                    return;
+                }
+
+                // Para cada carro na lista, cria um elemento HTML <article>
+                carros.forEach(carro => {
+                    const artigo = document.createElement('article');
+                    artigo.className = 'card';
+                    // Preenche o conteúdo do card com os dados do carro (imagem, nome, história, etc.)
+                    artigo.innerHTML = ` 
+                        <img src="${carro.imagem}" alt="${carro.nome}">
+                        <div class="card-content">
+                            <h2>${carro.nome}</h2>
+                            <div class="especificacoes">${carro.especificacoes}</div>
+                            <p>${carro.historia}</p>
+                            <a href="${carro.link}" target="_blank">Saiba Mais →</a>
+                        </div>
+                    `;
+                    // Adiciona o card recém-criado ao contêiner na página
+                    container.appendChild(artigo);
+                });
+            }
+
+            // 3. FUNÇÃO DE BUSCA: Filtra os carros com base no termo digitado pelo usuário
+            function buscar() {
+                // Pega o valor do campo de busca e converte para minúsculas para uma busca não sensível a maiúsculas
+                const termo = campoBusca.value.toLowerCase();
+                // Filtra o array 'todosOsCarros', mantendo apenas os que correspondem ao termo de busca no nome, história ou especificações
+                const carrosFiltrados = todosOsCarros.filter(carro => 
+                    carro.nome.toLowerCase().includes(termo) || 
+                    carro.historia.toLowerCase().includes(termo) ||
+                    carro.especificacoes.toLowerCase().includes(termo)
+                );
+                // Chama a função de renderização para exibir apenas os carros filtrados
+                renderizarCards(carrosFiltrados);
+            }
+
+            // 4. EVENTOS DE BUSCA: Define quando a função 'buscar' deve ser chamada
+            // Adiciona um "ouvinte" para o evento de clique no botão de busca
+            botaoBusca.addEventListener('click', buscar);
+            // Adiciona um "ouvinte" para o evento de pressionar uma tecla no campo de busca
+            campoBusca.addEventListener('keyup', (event) => {
+                // Se a tecla pressionada for "Enter", chama a função de busca
+                if (event.key === 'Enter') {
+                    buscar();
+                }
+            });
+        });
+    </script>
+</body>
+</html>

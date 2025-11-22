@@ -1,0 +1,121 @@
+[
+    {
+        "nome": "Ford Mustang 1967",
+        "imagem": "https://bringatrailer.com/wp-content/uploads/2024/07/1967_ford_mustang-gt_img_5893-62427.jpeg?fit=940%2C627",
+        "historia": "O Ford Mustang 1967 representa o auge da era dos muscle cars americanos. Com seu design agressivo e motor V8 potente, este ícone definiu uma geração. A versão Fastback tornou-se imortalizada no filme 'Bullitt' com Steve McQueen. Produzido em Dearborn, Michigan, o Mustang '67 oferecia motores de até 390 cavalos de potência.",
+        "especificacoes": "Motor V8 4.7L - 289 cv | Ano: 1967 | Origem: EUA",
+        "link": "https://pt.wikipedia.org/wiki/Ford_Mustang"
+    },
+    {
+        "nome": "Volkswagen Fusca 1963",
+        "imagem": "https://images.unsplash.com/photo-1617814076367-b759c7d7e738?w=800&q=80",
+        "historia": "O Volkswagen Fusca de 1963 representa a simplicidade e confiabilidade alemã. Projetado na década de 1930, tornou-se o carro mais produzido no século XX. Com seu motor refrigerado a ar na traseira e design inconfundível, conquistou o mundo. No Brasil, foi produzido até 1996, tornando-se parte da cultura nacional.",
+        "especificacoes": "Motor 4 cilindros 1.2L - 40 cv | Ano: 1963 | Origem: Alemanha",
+        "link": "https://pt.wikipedia.org/wiki/Volkswagen_Fusca"
+    },
+    {
+        "nome": "Chevrolet Corvette C2 1963",
+        "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLpUa7ZVAwPknuoDW3ajPtRbiu0QEnHX64TQ&s",
+        "historia": "O Corvette C2 Stingray de 1963 é considerado um dos mais belos carros esportivos já criados. Com sua janela traseira dividida icônica (apenas no modelo 1963) e design futurista inspirado em aviões, revolucionou o conceito de carro esportivo americano. Seu motor V8 entregava performance de supercar.",
+        "especificacoes": "Motor V8 5.4L - 360 cv | Ano: 1963 | Origem: EUA",
+        "link": "https://pt.wikipedia.org/wiki/Chevrolet_Corvette"
+    },
+    {
+        "nome": "Jaguar E-Type 1961",
+        "imagem": "https://www.amalgamcollection.com/cdn/shop/products/4_103c97eb-3fd7-4ca4-8679-8ceee6d9ec7e_4000x2677_crop_center.jpg?v=1601652922",
+        "historia": "Enzo Ferrari chamou o Jaguar E-Type de 'o carro mais bonito já feito'. Lançado em 1961, combinava beleza com performance extraordinária, atingindo 240 km/h. Seu design alongado e curvas sensuais definiram a estética automotiva dos anos 60. Foi produzido até 1975 e permanece um ícone de elegância britânica.",
+        "especificacoes": "Motor 6 cilindros 3.8L - 265 cv | Ano: 1961 | Origem: Inglaterra",
+        "link": "https://pt.wikipedia.org/wiki/Jaguar_E-Type"
+    },
+    {
+        "nome": "Porsche 911 1964",
+        "imagem": "https://www.automaistv.com.br/wp-content/uploads/2017/12/Porsche-911-1964-901-6.jpg",
+        "historia": "O Porsche 911 original de 1964 estabeleceu um legado que continua até hoje. Com motor boxer de seis cilindros na traseira e design atemporal de Ferdinand 'Butzi' Porsche, criou uma fórmula vencedora. Sua silhueta distintiva praticamente não mudou em 60 anos de produção, provando a genialidade do design original.",
+        "especificacoes": "Motor Boxer 6 cilindros 2.0L - 130 cv | Ano: 1964 | Origem: Alemanha",
+        "link": "https://pt.wikipedia.org/wiki/Porsche_911"
+    },
+    {
+        "nome": "Mercedes-Benz 300SL 1954",
+        "imagem": "https://hagerty-vid-images.imgix.net/Vehicle%20Reference%20Data/VRD-65714/1954_Mercedes-Benz_300SL_Gullwing_1.jpg",
+        "historia": "O Mercedes-Benz 300SL 'Gullwing' de 1954 foi o carro de produção mais rápido de sua época. Suas portas asas de gaivota icônicas não eram apenas estilo - eram necessárias devido ao chassi tubular alto. Foi o primeiro carro de produção com injeção direta de combustível. Apenas 1.400 unidades foram produzidas, tornando-o extremamente valioso hoje.",
+        "especificacoes": "Motor 6 cilindros 3.0L - 215 cv | Ano: 1954 | Origem: Alemanha",
+        "link": "https://pt.wikipedia.org/wiki/Mercedes-Benz_300_SL"
+    },
+    {
+        "nome": "Dodge Charger 1969",
+        "imagem": "https://cdn.dealeraccelerate.com/rkm/1/7649/513098/1920x1440/1969-dodge-charger-r-t",
+        "historia": "O Dodge Charger 1969 é a essência do muscle car americano. Imortalizado em filmes e séries como 'Dukes of Hazzard' e 'Velozes e Furiosos', seu design agressivo com grade oculta e lanternas traseiras circulares é inconfundível. A versão Charger R/T com motor HEMI de 426 polegadas cúbicas era uma fera nas ruas e pistas.",
+        "especificacoes": "Motor V8 7.0L HEMI - 425 cv | Ano: 1969 | Origem: EUA",
+        "link": "https://pt.wikipedia.org/wiki/Dodge_Charger"
+    },
+    {
+        "nome": "Ferrari 250 GTO 1962",
+        "imagem": "https://cdn.motor1.com/images/mgl/MkvqvX/s1/1962-ferrari-250-gto-auction.jpg",
+        "historia": "Considerado por muitos o maior carro de todos os tempos, o Ferrari 250 GTO foi projetado para competir. Apenas 36 foram feitos, tornando-o um dos carros mais raros e valiosos do mundo. Sua combinação de design deslumbrante, motor V12 potente e sucesso nas pistas o transformou em uma lenda.",
+        "especificacoes": "Motor V12 3.0L - 300 cv | Ano: 1962 | Origem: Itália",
+        "link": "https://pt.wikipedia.org/wiki/Ferrari_250_GTO"
+    },
+    {
+        "nome": "Lamborghini Miura P400 1966",
+        "imagem": "https://media.autoexpress.co.uk/image/private/s--X-WVjvBW--/f_auto,t_content-image-full-desktop@1/v1679569793/autoexpress/2023/03/Lamborghini%20Miura%20icon-4.jpg",
+        "historia": "O Lamborghini Miura é frequentemente creditado como o primeiro supercarro do mundo, com seu motor V12 central-traseiro. Seu design revolucionário, obra de Marcello Gandini no estúdio Bertone, chocou o mundo automotivo em 1966 e estabeleceu um novo padrão para carros de alta performance.",
+        "especificacoes": "Motor V12 3.9L - 350 cv | Ano: 1966 | Origem: Itália",
+        "link": "https://pt.wikipedia.org/wiki/Lamborghini_Miura"
+    },
+    {
+        "nome": "Aston Martin DB5 1964",
+        "imagem": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Aston_Martin_DB5_%28Skyfall%29.jpg",
+        "historia": "O Aston Martin DB5 tornou-se um ícone da cultura pop como o carro de James Bond no filme 'Goldfinger' de 1964. Além de sua fama no cinema, o DB5 é um grand tourer britânico de luxo, conhecido por sua elegância, performance e carroceria 'Superleggera' feita à mão pela Carrozzeria Touring.",
+        "especificacoes": "Motor 6 cilindros 4.0L - 282 cv | Ano: 1964 | Origem: Inglaterra",
+        "link": "https://pt.wikipedia.org/wiki/Aston_Martin_DB5"
+    },
+    {
+        "nome": "Shelby Cobra 427 1965",
+        "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEgrcILYetaYJVoNNf3x1cp5oH7OqpQbBZvQ&s",
+        "historia": "O Shelby Cobra é a definição de força bruta. Carroll Shelby teve a ideia genial de colocar um motor V8 gigante da Ford em um chassi leve britânico da AC Cars. O resultado foi um carro de corrida legalizado para as ruas, com aceleração avassaladora e um visual intimidador que se tornou um ícone americano.",
+        "especificacoes": "Motor V8 7.0L - 425 cv | Ano: 1965 | Origem: EUA/Inglaterra",
+        "link": "https://pt.wikipedia.org/wiki/AC_Cobra"
+    },
+    {
+        "nome": "Ford GT40 1966",
+        "imagem": "https://m.media-amazon.com/images/I/51w+j8T46TL.jpg",
+        "historia": "O Ford GT40 foi construído com um único propósito: derrotar a Ferrari nas 24 Horas de Le Mans. E ele conseguiu, vencendo a corrida quatro vezes consecutivas de 1966 a 1969. Seu nome vem de sua altura de apenas 40 polegadas. É um dos carros de corrida mais importantes e bem-sucedidos da história.",
+        "especificacoes": "Motor V8 7.0L - 485 cv | Ano: 1966 | Origem: EUA",
+        "link": "https://pt.wikipedia.org/wiki/Ford_GT40"
+    },
+    {
+        "nome": "BMW M1 1978",
+        "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRj-gKK72XnnHxEnt6rHqvYjkejbb0PhJjqCA&s",
+        "historia": "O BMW M1 foi o primeiro e único supercarro de motor central da BMW. Com design de Giorgetto Giugiaro, foi originalmente concebido para competições. Atrasos na produção levaram à criação do campeonato Procar, onde pilotos de F1 competiam com M1s. É o carro que deu origem à lendária divisão 'M' da BMW.",
+        "especificacoes": "Motor 6 cilindros 3.5L - 277 cv | Ano: 1978 | Origem: Alemanha",
+        "link": "https://pt.wikipedia.org/wiki/BMW_M1"
+    },
+    {
+        "nome": "Lancia Stratos HF 1973",
+        "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC2szBh46jlj9dp1AeG-rQNzh9cBAjuqlC5A&s",
+        "historia": "O Lancia Stratos foi o primeiro carro projetado do zero especificamente para o Campeonato Mundial de Rali. Com seu design em forma de cunha, motor Ferrari Dino V6 e agilidade incrível, ele dominou os ralis, vencendo o campeonato por três anos consecutivos (1974, 1975, 1976) e se tornando um ícone do esporte.",
+        "especificacoes": "Motor V6 2.4L - 190 cv | Ano: 1973 | Origem: Itália",
+        "link": "https://pt.wikipedia.org/wiki/Lancia_Stratos"
+    },
+    {
+        "nome": "DeLorean DMC-12 1981",
+        "imagem": "https://media.carsandbids.com/cdn-cgi/image/width=2080,quality=70/4822e9034b0b6b357b3f73fabdfc10e586c36f68/photos/rM2kjPmo-_qoio0TOHJ-(edit).jpg?t=169677168938",
+        "historia": "Imortalizado como a máquina do tempo na trilogia 'De Volta para o Futuro', o DeLorean DMC-12 é um dos carros mais reconhecíveis do mundo. Suas portas asa de gaivota e carroceria de aço inoxidável sem pintura lhe conferem um visual futurista único, apesar de sua performance modesta para a época.",
+        "especificacoes": "Motor V6 2.85L - 130 cv | Ano: 1981 | Origem: Irlanda do Norte",
+        "link": "https://pt.wikipedia.org/wiki/DeLorean_DMC-12"
+    },
+    {
+        "nome": "Chevrolet Camaro Z/28 1969",
+        "imagem": "https://cdn.dealeraccelerate.com/sunnyside/1/24/2069/1920x1440/1969-chevrolet-camaro-z28",
+        "historia": "O Camaro Z/28 de 1969 é um dos pony cars mais icônicos. Projetado para competir na série Trans-Am, vinha com um motor V8 de 302 polegadas cúbicas de alta rotação, suspensão aprimorada e um visual agressivo. É considerado por muitos o ápice do design da primeira geração do Camaro.",
+        "especificacoes": "Motor V8 4.9L - 290 cv | Ano: 1969 | Origem: EUA",
+        "link": "https://en.wikipedia.org/wiki/Chevrolet_Camaro_(first_generation)"
+    },
+    {
+        "nome": "Pontiac GTO 1964",
+        "imagem": "https://cdn.hswstatic.com/gif/1964-pontiac-gto-1.jpg",
+        "historia": "O Pontiac GTO de 1964 é amplamente considerado o carro que deu início à era dos muscle cars. A Pontiac quebrou as regras da GM ao colocar um grande motor V8 de 389 polegadas cúbicas em um chassi intermediário (Tempest), criando um carro acessível com performance de carro grande. O GTO definiu a fórmula para uma década de carros de alta potência.",
+        "especificacoes": "Motor V8 6.4L - 325 cv | Ano: 1964 | Origem: EUA",
+        "link": "https://pt.wikipedia.org/wiki/Pontiac_GTO"
+    }
+]
